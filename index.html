@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .banking-form{
+            height: auto;
+            
+            margin-left: 400px;
+            margin-right: 400px;
+            margin-top: 100px;
+            
+        }
+        #Bank-name, #Branch-name ,#Branch-code ,#Address ,#Address ,#Address-1 ,#City ,#Region ,#Postol ,#Distric ,#BAC ,#SWIFT-BIC
+        
+        ,#IBAN-NO ,#BAN{
+            width: 200px;
+            height:25px;
+            margin-top: 10px;
+        }
+        .bank{
+            background-color:antiquewhite;
+            height: auto;
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="bank">
+    <div class="banking-form">
+         <h1>Bank Account Form</h1>
+        <form autocomplete="">
+        <input type="text" id="Bank-name" name="Bank-name" placeholder="Bank Name" required>
+        <input type="text" id="Branch-name" name="Branch-name"placeholder="Branch-Name" required>
+        <input type="text" id="Branch-code" name="Branch-code" placeholder="Branch-code" required>
+        <input type="text" id="Address" name="Address" placeholder="Street address" required>
+        <input type="text" id="Address" name="Address-2" placeholder="Street address-1" required>
+        <input type="text" id="City" name="City" placeholder="City" required>
+        <input type="text" id="Region" name="Region" placeholder="Region" required>
+        <input type="text" id="Postol" name="Postol" placeholder="Postol" required>
+        <input type="text" id="Distric" name="Distric" placeholder="Distric" required>
+        <input type="text" id="BAC" name="BAc" placeholder="Bank Account Curency" required>
+        <input type="text" id="SWIFT-BIC" name="SWIFT/BIC" placeholder="SWIFT/BIC" required>
+        <input type="text" id="IBAN-NO" name="IBAN NO" placeholder="IBAN NO" required>
+        <input type="text" id="BAN" name="BAN" placeholder="Bank Account Name" required><br> <br>
+        <label for="">Account type</label><br><br>
+        <input type="radio" name="account">Current <br> <br>
+        <input type="radio" name="account">Saveings <br> <br>
+        <input type="radio" name="account">Joint Account <br> <br>
+        <input type="submit">
+
+    </form>
+
+    </div>
+</div>
+</body>
+</html>
